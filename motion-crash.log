@@ -1,0 +1,965 @@
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_startup: Motion 4.3.1+git20210613-11320aa Started
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_startup: Using log type (ALL) log level (ALL)
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] conf_output_parms: Writing configuration parameters from all files (11):
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] Thread 0 - Config file: /etc/motion/motion.conf
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] daemon                    off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] setup_mode                off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] pid_file                  /var/run/motion/motion.pid
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] log_file                  /tmp/motion.log
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] log_level                 9
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] log_type                  all
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] quiet                     on
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] native_language           on
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_name               
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_id                 0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] target_dir                /srv/motion
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_device              /dev/video0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_params              frequency=0,norm=0,input=-1,palette=17
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] auto_brightness           0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] tuner_device              
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] roundrobin_frames         1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] roundrobin_skip           1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] roundrobin_switchfilter   off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_url                
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_params             rtsp_transport = tcp,tolerant_check = off,keepalive = on
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_url           
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_params        
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_userpass           
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] mmalcam_name              
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] mmalcam_params            
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] width                     704
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] height                    480
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] framerate                 15
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] minimum_frame_time        0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] rotate                    0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] flip_axis                 none
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] locate_motion_mode        off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] locate_motion_style       box
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] text_left                 
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] text_right                %Y-%m-%d\n%T
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] text_changes              off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] text_scale                1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] text_event                %Y%m%d%H%M%S
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] emulate_motion            off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] threshold                 1000
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] threshold_maximum         0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] threshold_tune            off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] noise_level               32
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] noise_tune                on
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] despeckle_filter          
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] area_detect               
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] mask_file                 
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] mask_privacy              
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] smart_mask_speed          7
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] lightswitch_percent       70
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] lightswitch_frames        5
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] minimum_motion_frames     1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] event_gap                 60
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] pre_capture               3
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] post_capture              125
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] on_event_start            
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] on_event_end              
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] on_picture_save           
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] on_area_detected          
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] on_motion_detected        
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] on_movie_start            
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] on_movie_end              
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] on_camera_lost            
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] on_camera_found           
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] picture_output            off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] picture_output_motion     off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] picture_type              jpeg
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] picture_quality           75
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] picture_exif              
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] picture_filename          %Y/%m/%d/cam-%$/%H-%M-%S-%q
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] snapshot_interval         0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] snapshot_filename         %Y/%m/%d/cam-%$/%H-%M-%S-snapshot
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] movie_output              on
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] movie_output_motion       off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] movie_max_time            0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] movie_bps                 1000000
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] movie_quality             60
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] movie_codec               mp4
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] movie_duplicate_frames    off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] movie_passthrough         on
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] movie_filename            %Y/%m/%d/cam-%$/%H-%M-%S
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] movie_extpipe_use         off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] movie_extpipe             
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] timelapse_interval        0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] timelapse_mode            daily
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] timelapse_fps             30
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] timelapse_codec           mpg
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] timelapse_filename        %Y/%m/%d/cam-%t/timelapse
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_pipe                
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_pipe_motion         
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] webcontrol_port           8080
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] webcontrol_ipv6           off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] webcontrol_localhost      off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] webcontrol_parms          0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] webcontrol_interface      0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] webcontrol_auth_method    1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] webcontrol_authentication <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] webcontrol_tls            on
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] webcontrol_cert           <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] webcontrol_key            <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] webcontrol_cors_header    
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_port               0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_localhost          off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_auth_method        1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_authentication     <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_tls                on
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_cors_header        
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_scale      25
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_newline    off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_method     0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_quality            50
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_grey               off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_motion             off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_maxrate            20
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_limit              0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] database_type             
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] database_dbname           
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] database_host             localhost
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] database_port             0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] database_user             
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] database_password         
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] database_busy_timeout     0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] sql_log_picture           off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] sql_log_snapshot          off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] sql_log_movie             off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] sql_log_timelapse         off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] sql_query_start           
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] sql_query_stop            
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] sql_query                 
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_type                0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_auto                off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_port                
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_motorx              0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_motorx_reverse      off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_motory              0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_motory_reverse      off
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_maxx                0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_minx                0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_maxy                0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_miny                0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_homex               128
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_homey               128
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_iomojo_id           0
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_step_angle_x        10
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_step_angle_y        10
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_move_wait           10
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_speed               255
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_stepsize            40
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] track_generic_move        
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera                    
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_dir                
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] Thread 1 - Config file: /etc/motion/Cam-1.conf
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_name               01-x01r_pat
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_id                 101
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_params              input=-1,frequency=0,norm=0,input=-1,palette=17
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_url                <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_url           rtsp://<redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_userpass           <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_port               8081
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_method     1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] Thread 2 - Config file: /etc/motion/Cam-2.conf
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_name               02-x02_ro
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_id                 102
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_params              input=-1,frequency=0,norm=0,input=-1,palette=17
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_url                <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_url           rtsp://<redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_userpass           <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_port               8082
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_method     1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] Thread 3 - Config file: /etc/motion/Cam-3.conf
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_name               03-x03itchn
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_id                 103
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_params              input=-1,frequency=0,norm=0,input=-1,palette=17
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_url                <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_url           rtsp://<redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_userpass           <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] mask_file                 /etc/motion/Masks/mask-A-704x480.pgm
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_port               8083
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_method     1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] Thread 4 - Config file: /etc/motion/Cam-4.conf
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_name               04-x04_offc
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_id                 104
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_params              input=-1,frequency=0,norm=0,input=-1,palette=17
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_url                <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_url           rtsp://<redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_userpass           <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] mask_file                 /etc/motion/Masks/mask-B-704x480.pgm
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_port               8084
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_method     1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] Thread 5 - Config file: /etc/motion/Cam-5.conf
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_name               05-x05ud_rm
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_id                 105
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_params              input=-1,frequency=0,norm=0,input=-1,palette=17
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_url                <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_url           rtsp://<redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_userpass           <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_port               8085
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_method     1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] Thread 6 - Config file: /etc/motion/Cam-6.conf
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_name               06-x06nside
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_id                 106
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_params              input=-1,frequency=0,norm=0,input=-1,palette=17
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_url                <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_url           rtsp://<redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_userpass           <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_port               8086
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_method     1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] Thread 7 - Config file: /etc/motion/Cam-7.conf
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_name               07-x07drway
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_id                 107
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_params              input=-1,frequency=0,norm=0,input=-1,palette=17
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_url                <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_url           rtsp://<redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_userpass           <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_port               8087
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_method     1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] Thread 8 - Config file: /etc/motion/Cam-8.conf
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_name               08-x08or_dr
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_id                 108
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_params              input=-1,frequency=0,norm=0,input=-1,palette=17
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_url                <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_url           rtsp://<redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_userpass           <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_port               8088
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_method     1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] Thread 9 - Config file: /etc/motion/Cam-9.conf
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_name               09-x09t_flr
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_id                 109
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_params              input=-1,frequency=0,norm=0,input=-1,palette=17
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_url                <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_url           rtsp://<redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_userpass           <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_port               8089
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_method     1
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] Thread 10 - Config file: /etc/motion/Cam-10.conf
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_name               10-x10ool_lv
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] camera_id                 110
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] video_params              input=-1,frequency=0,norm=0,input=-1,palette=17
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_url                <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_high_url           rtsp://<redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] netcam_userpass           <redacted>
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_port               8090
+[0:motion] [INF] [ALL] [Jun 18 08:31:40] stream_preview_method     1
+[0:motion] [DBG] [ALL] [Jun 18 08:31:40] motion_ntc: v4l2   : available
+[0:motion] [DBG] [ALL] [Jun 18 08:31:40] motion_ntc: bktr   : not available
+[0:motion] [DBG] [ALL] [Jun 18 08:31:40] motion_ntc: webp   : available
+[0:motion] [DBG] [ALL] [Jun 18 08:31:40] motion_ntc: mmal   : not available
+[0:motion] [DBG] [ALL] [Jun 18 08:31:40] motion_ntc: ffmpeg : available
+[0:motion] [DBG] [DBL] [Jun 18 08:31:40] motion_ntc: mysql  : not available
+[0:motion] [DBG] [DBL] [Jun 18 08:31:40] motion_ntc: MariaDB: available
+[0:motion] [DBG] [DBL] [Jun 18 08:31:40] motion_ntc: sqlite3: available
+[0:motion] [DBG] [DBL] [Jun 18 08:31:40] motion_ntc: pgsql  : not available
+[0:motion] [DBG] [DBL] [Jun 18 08:31:40] motion_ntc: nls    : available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_strm: Starting camera 101 stream on port 8081
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_basic: Basic authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_digest: Digest authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_ipv6: IPV6: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_tls: SSL/TLS: available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_strm_ntc: Started camera 101 stream on port 8081
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_strm: Starting camera 102 stream on port 8082
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_basic: Basic authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_digest: Digest authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_ipv6: IPV6: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_tls: SSL/TLS: available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_strm_ntc: Started camera 102 stream on port 8082
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_strm: Starting camera 103 stream on port 8083
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_basic: Basic authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_digest: Digest authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_ipv6: IPV6: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_tls: SSL/TLS: available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_strm_ntc: Started camera 103 stream on port 8083
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_strm: Starting camera 104 stream on port 8084
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_basic: Basic authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_digest: Digest authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_ipv6: IPV6: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_tls: SSL/TLS: available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_strm_ntc: Started camera 104 stream on port 8084
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_strm: Starting camera 105 stream on port 8085
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_basic: Basic authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_digest: Digest authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_ipv6: IPV6: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_tls: SSL/TLS: available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_strm_ntc: Started camera 105 stream on port 8085
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_strm: Starting camera 106 stream on port 8086
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_basic: Basic authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_digest: Digest authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_ipv6: IPV6: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_tls: SSL/TLS: available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_strm_ntc: Started camera 106 stream on port 8086
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_strm: Starting camera 107 stream on port 8087
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_basic: Basic authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_digest: Digest authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_ipv6: IPV6: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_tls: SSL/TLS: available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_strm_ntc: Started camera 107 stream on port 8087
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_strm: Starting camera 108 stream on port 8088
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_basic: Basic authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_digest: Digest authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_ipv6: IPV6: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_tls: SSL/TLS: available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_strm_ntc: Started camera 108 stream on port 8088
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_strm: Starting camera 109 stream on port 8089
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_basic: Basic authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_digest: Digest authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_ipv6: IPV6: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_tls: SSL/TLS: available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_strm_ntc: Started camera 109 stream on port 8089
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_strm: Starting camera 110 stream on port 8090
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_basic: Basic authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_digest: Digest authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_ipv6: IPV6: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_tls: SSL/TLS: available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_strm_ntc: Started camera 110 stream on port 8090
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_ctrl: Starting webcontrol on port 8080
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_basic: Basic authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_digest: Digest authentication: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_ipv6: IPV6: available
+[0:motion] [DBG] [STR] [Jun 18 08:31:40] webu_mhd_features_tls: SSL/TLS: available
+[0:motion] [NTC] [STR] [Jun 18 08:31:40] webu_start_ctrl: Started webcontrol on port 8080
+[0:motion] [NTC] [ENC] [Jun 18 08:31:40] ffmpeg_global_init: ffmpeg libavcodec version 58.134.100 libavformat version 58.76.100
+[0:motion] [DBG] [DBL] [Jun 18 08:31:40] dbse_global_init: Initializing database
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] translate_init: Language: English
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 101 is from /etc/motion/Cam-1.conf
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 101 Camera Name: 01-x01r_pat Service: rtsp:
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 102 is from /etc/motion/Cam-2.conf
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 102 Camera Name: 02-x02_ro Service: rtsp:
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 103 is from /etc/motion/Cam-3.conf
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 103 Camera Name: 03-x03itchn Service: rtsp:
+[1:ml1:01-x01] [NTC] [ALL] [Jun 18 08:31:40] motion_init: Camera 101 started: motion detection Enabled
+[1:ml1:01-x01] [NTC] [VID] [Jun 18 08:31:40] vid_start: Opening Netcam RTSP
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 104 is from /etc/motion/Cam-4.conf
+[1:ml1:01-x01] [INF] [ALL] [Jun 18 08:31:40] util_parms_parse: Parsing controls: rtsp_transport = tcp,tolerant_check = off,keepalive = on
+[2:ml2:02-x02] [NTC] [ALL] [Jun 18 08:31:40] motion_init: Camera 102 started: motion detection Enabled
+[1:ml1:01-x01] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[2:ml2:02-x02] [NTC] [VID] [Jun 18 08:31:40] vid_start: Opening Netcam RTSP
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 104 Camera Name: 04-x04_offc Service: rtsp:
+[1:ml1:01-x01] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >tolerant_check< >off<
+[3:ml3:03-x03] [NTC] [ALL] [Jun 18 08:31:40] motion_init: Camera 103 started: motion detection Enabled
+[1:ml1:01-x01] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >keepalive< >on<
+[3:ml3:03-x03] [NTC] [VID] [Jun 18 08:31:40] vid_start: Opening Netcam RTSP
+[2:ml2:02-x02] [INF] [ALL] [Jun 18 08:31:40] util_parms_parse: Parsing controls: rtsp_transport = tcp,tolerant_check = off,keepalive = on
+[3:ml3:03-x03] [INF] [ALL] [Jun 18 08:31:40] util_parms_parse: Parsing controls: rtsp_transport = tcp,tolerant_check = off,keepalive = on
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 105 is from /etc/motion/Cam-5.conf
+[2:ml2:02-x02] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[3:ml3:03-x03] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[2:ml2:02-x02] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >tolerant_check< >off<
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_parms: Setting up norm stream.
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 105 Camera Name: 05-x05ud_rm Service: rtsp:
+[1:ml1:01-x01] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >decoder< >NULL<
+[4:ml4:04-x04] [NTC] [ALL] [Jun 18 08:31:40] motion_init: Camera 104 started: motion detection Enabled
+[2:ml2:02-x02] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >keepalive< >on<
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_parms: Setting up norm stream.
+[2:ml2:02-x02] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >decoder< >NULL<
+[3:ml3:03-x03] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >tolerant_check< >off<
+[4:ml4:04-x04] [NTC] [VID] [Jun 18 08:31:40] vid_start: Opening Netcam RTSP
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 106 is from /etc/motion/Cam-6.conf
+[3:ml3:03-x03] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >keepalive< >on<
+[4:ml4:04-x04] [INF] [ALL] [Jun 18 08:31:40] util_parms_parse: Parsing controls: rtsp_transport = tcp,tolerant_check = off,keepalive = on
+[5:ml5:05-x05] [NTC] [ALL] [Jun 18 08:31:40] motion_init: Camera 105 started: motion detection Enabled
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 106 Camera Name: 06-x06nside Service: rtsp:
+[5:ml5:05-x05] [NTC] [VID] [Jun 18 08:31:40] vid_start: Opening Netcam RTSP
+[5:ml5:05-x05] [INF] [ALL] [Jun 18 08:31:40] util_parms_parse: Parsing controls: rtsp_transport = tcp,tolerant_check = off,keepalive = on
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_parms: Setting up norm stream.
+[3:ml3:03-x03] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >decoder< >NULL<
+[4:ml4:04-x04] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[5:ml5:05-x05] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 107 is from /etc/motion/Cam-7.conf
+[4:ml4:04-x04] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >tolerant_check< >off<
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 107 Camera Name: 07-x07drway Service: rtsp:
+[5:ml5:05-x05] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >tolerant_check< >off<
+[4:ml4:04-x04] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >keepalive< >on<
+[5:ml5:05-x05] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >keepalive< >on<
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_parms: Setting up norm stream.
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[4:ml4:04-x04] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >decoder< >NULL<
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_parms: Setting up norm stream.
+[5:ml5:05-x05] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >decoder< >NULL<
+[6:ml6:06-x06] [NTC] [ALL] [Jun 18 08:31:40] motion_init: Camera 106 started: motion detection Enabled
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 108 is from /etc/motion/Cam-8.conf
+[6:ml6:06-x06] [NTC] [VID] [Jun 18 08:31:40] vid_start: Opening Netcam RTSP
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 108 Camera Name: 08-x08or_dr Service: rtsp:
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[6:ml6:06-x06] [INF] [ALL] [Jun 18 08:31:40] util_parms_parse: Parsing controls: rtsp_transport = tcp,tolerant_check = off,keepalive = on
+[1:ml1:01-x01] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >allowed_media_types< >video<
+[7:ml7:07-x07] [NTC] [ALL] [Jun 18 08:31:40] motion_init: Camera 107 started: motion detection Enabled
+[7:ml7:07-x07] [NTC] [VID] [Jun 18 08:31:40] vid_start: Opening Netcam RTSP
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 109 is from /etc/motion/Cam-9.conf
+[7:ml7:07-x07] [INF] [ALL] [Jun 18 08:31:40] util_parms_parse: Parsing controls: rtsp_transport = tcp,tolerant_check = off,keepalive = on
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: rtsp_transport = tcp
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 109 Camera Name: 09-x09t_flr Service: rtsp:
+[6:ml6:06-x06] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[6:ml6:06-x06] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >tolerant_check< >off<
+[7:ml7:07-x07] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[6:ml6:06-x06] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >keepalive< >on<
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: tolerant_check = off
+[7:ml7:07-x07] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >tolerant_check< >off<
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: keepalive = on
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 110 is from /etc/motion/Cam-10.conf
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] motion_start_thread: Camera ID: 110 Camera Name: 10-x10ool_lv Service: rtsp:
+[7:ml7:07-x07] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >keepalive< >on<
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_parms: Setting up norm stream.
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: allowed_media_types = video
+[7:ml7:07-x07] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >decoder< >NULL<
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_parms: Setting up norm stream.
+[8:ml8:08-x08] [NTC] [ALL] [Jun 18 08:31:40] motion_init: Camera 108 started: motion detection Enabled
+[0:motion] [NTC] [ALL] [Jun 18 08:31:40] main: Waiting for threads to finish, pid: 8633
+[8:ml8:08-x08] [NTC] [VID] [Jun 18 08:31:40] vid_start: Opening Netcam RTSP
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[8:ml8:08-x08] [INF] [ALL] [Jun 18 08:31:40] util_parms_parse: Parsing controls: rtsp_transport = tcp,tolerant_check = off,keepalive = on
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[8:ml8:08-x08] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[2:ml2:02-x02] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >allowed_media_types< >video<
+[9:ml9:09-x09] [NTC] [ALL] [Jun 18 08:31:40] motion_init: Camera 109 started: motion detection Enabled
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[9:ml9:09-x09] [NTC] [VID] [Jun 18 08:31:40] vid_start: Opening Netcam RTSP
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: rtsp_transport = tcp
+[6:ml6:06-x06] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >decoder< >NULL<
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: tolerant_check = off
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[8:ml8:08-x08] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >tolerant_check< >off<
+[3:ml3:03-x03] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >allowed_media_types< >video<
+[8:ml8:08-x08] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >keepalive< >on<
+[9:ml9:09-x09] [INF] [ALL] [Jun 18 08:31:40] util_parms_parse: Parsing controls: rtsp_transport = tcp,tolerant_check = off,keepalive = on
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_parms: Setting up norm stream.
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: keepalive = on
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: allowed_media_types = video
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: rtsp_transport = tcp
+[10:ml10:10-x10] [NTC] [ALL] [Jun 18 08:31:40] motion_init: Camera 110 started: motion detection Enabled
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: tolerant_check = off
+[10:ml10:10-x10] [NTC] [VID] [Jun 18 08:31:40] vid_start: Opening Netcam RTSP
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: keepalive = on
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: allowed_media_types = video
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[8:ml8:08-x08] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >decoder< >NULL<
+[5:ml5:05-x05] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >allowed_media_types< >video<
+[4:ml4:04-x04] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >allowed_media_types< >video<
+[10:ml10:10-x10] [INF] [ALL] [Jun 18 08:31:40] util_parms_parse: Parsing controls: rtsp_transport = tcp,tolerant_check = off,keepalive = on
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[9:ml9:09-x09] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[9:ml9:09-x09] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >tolerant_check< >off<
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: rtsp_transport = tcp
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: tolerant_check = off
+[10:ml10:10-x10] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: rtsp_transport = tcp
+[9:ml9:09-x09] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >keepalive< >on<
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_parms: Setting up norm stream.
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: tolerant_check = off
+[9:ml9:09-x09] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >decoder< >NULL<
+[10:ml10:10-x10] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >tolerant_check< >off<
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: keepalive = on
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: keepalive = on
+[7:ml7:07-x07] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >allowed_media_types< >video<
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: allowed_media_types = video
+[10:ml10:10-x10] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >keepalive< >on<
+[6:ml6:06-x06] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >allowed_media_types< >video<
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: rtsp_transport = tcp
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: rtsp_transport = tcp
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_parms: Setting up norm stream.
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: tolerant_check = off
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: allowed_media_types = video
+[10:ml10:10-x10] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >decoder< >NULL<
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: keepalive = on
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: tolerant_check = off
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: allowed_media_types = video
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: keepalive = on
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: allowed_media_types = video
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[8:ml8:08-x08] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >allowed_media_types< >video<
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: rtsp_transport = tcp
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: tolerant_check = off
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: keepalive = on
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: allowed_media_types = video
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[9:ml9:09-x09] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >allowed_media_types< >video<
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: rtsp_transport = tcp
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: tolerant_check = off
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: keepalive = on
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: allowed_media_types = video
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[10:ml10:10-x10] [INF] [ALL] [Jun 18 08:31:40] util_parms_add: Parsed: >allowed_media_types< >video<
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: rtsp_transport = tcp
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: tolerant_check = off
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: keepalive = on
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_set_options: norm: option: allowed_media_types = video
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_open_context: norm: Opened camera(05-x05ud_rm)
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_open_context: norm: Opened camera(03-x03itchn)
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_open_context: norm: Opened camera(04-x04_offc)
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_open_context: norm: Opened camera(08-x08or_dr)
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_open_context: norm: Opened camera(09-x09t_flr)
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_open_context: norm: Opened camera(02-x02_ro)
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_open_context: norm: Opened camera(06-x06nside)
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_open_context: norm: Opened camera(10-x10ool_lv)
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_open_context: norm: Opened camera(07-x07drway)
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:40] netcam_rtsp_open_context: norm: Opened camera(01-x01r_pat)
+[5:av0:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: HW Devices: 
+[5:av0:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vdpau (not implemented)
+[5:av0:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: cuda (available)
+[5:av0:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vaapi (available)
+[5:av0:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: qsv (not implemented)
+[5:av0:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: drm (not implemented)
+[5:av0:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_init_swdecoder: norm: Initializing decoder
+[5:av0:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_codec: norm: Decoder opened
+[3:av0:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: HW Devices: 
+[3:av0:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vdpau (not implemented)
+[3:av0:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: cuda (available)
+[3:av0:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vaapi (available)
+[3:av0:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: qsv (not implemented)
+[3:av0:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: drm (not implemented)
+[3:av0:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_init_swdecoder: norm: Initializing decoder
+[3:av0:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_codec: norm: Decoder opened
+[5:ml5:05-x05] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [0/0] to [0/507904] bytes.
+[5:ml5:05-x05] [INF] [NET] Above message repeats 1 times
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_read_image: norm: capture_rate not specified in netcam_params. Using 16
+[5:ml5:05-x05] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[4:av0:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: HW Devices: 
+[4:av0:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vdpau (not implemented)
+[4:av0:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: cuda (available)
+[4:av0:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vaapi (available)
+[4:av0:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: qsv (not implemented)
+[4:av0:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: drm (not implemented)
+[4:av0:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_init_swdecoder: norm: Initializing decoder
+[4:av0:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_codec: norm: Decoder opened
+[8:av0:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: HW Devices: 
+[8:av0:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vdpau (not implemented)
+[8:av0:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: cuda (available)
+[8:av0:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vaapi (available)
+[8:av0:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: qsv (not implemented)
+[8:av0:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: drm (not implemented)
+[8:av0:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_init_swdecoder: norm: Initializing decoder
+[8:av0:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_codec: norm: Decoder opened
+[5:ml5:05-x05] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_parms: Setting up highres stream.
+[5:ml5:05-x05] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >decoder< >NULL<
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:42] util_check_passthrough: pass-through enabled.
+[11:nc11:05-x05] [NTC] [NET] [Jun 18 08:31:42] netcam_rtsp_handler: norm: Camera handler thread [11] started
+[11:nc11:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[5:ml5:05-x05] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[5:ml5:05-x05] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >allowed_media_types< >video<
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: rtsp_transport = tcp
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: allowed_media_types = video
+[9:av0:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: HW Devices: 
+[9:av0:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vdpau (not implemented)
+[9:av0:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: cuda (available)
+[9:av0:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vaapi (available)
+[9:av0:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: qsv (not implemented)
+[9:av0:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: drm (not implemented)
+[9:av0:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_init_swdecoder: norm: Initializing decoder
+[9:av0:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_codec: norm: Decoder opened
+[3:ml3:03-x03] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [0/0] to [0/507904] bytes.
+[3:ml3:03-x03] [INF] [NET] Above message repeats 1 times
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_read_image: norm: capture_rate not specified in netcam_params. Using 16
+[3:ml3:03-x03] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[8:ml8:08-x08] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [0/0] to [0/507904] bytes.
+[8:ml8:08-x08] [INF] [NET] Above message repeats 1 times
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_read_image: norm: capture_rate not specified in netcam_params. Using 16
+[8:ml8:08-x08] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[4:ml4:04-x04] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [0/0] to [0/507904] bytes.
+[3:ml3:03-x03] [DBG] [NET] Above message repeats 1 times
+[3:ml3:03-x03] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_read_image: norm: capture_rate not specified in netcam_params. Using 16
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_parms: Setting up highres stream.
+[3:ml3:03-x03] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >decoder< >NULL<
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:42] util_check_passthrough: pass-through enabled.
+[12:nc12:03-x03] [NTC] [NET] [Jun 18 08:31:42] netcam_rtsp_handler: norm: Camera handler thread [12] started
+[12:nc12:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[8:ml8:08-x08] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[3:ml3:03-x03] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[3:ml3:03-x03] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >allowed_media_types< >video<
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: rtsp_transport = tcp
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: allowed_media_types = video
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_parms: Setting up highres stream.
+[8:ml8:08-x08] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >decoder< >NULL<
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:42] util_check_passthrough: pass-through enabled.
+[13:nc13:08-x08] [NTC] [NET] [Jun 18 08:31:42] netcam_rtsp_handler: norm: Camera handler thread [13] started
+[13:nc13:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[8:ml8:08-x08] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[8:ml8:08-x08] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >allowed_media_types< >video<
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: rtsp_transport = tcp
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: allowed_media_types = video
+[10:av0:10-x10o] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: HW Devices: 
+[10:av0:10-x10o] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vdpau (not implemented)
+[10:av0:10-x10o] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: cuda (available)
+[10:av0:10-x10o] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vaapi (available)
+[10:av0:10-x10o] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: qsv (not implemented)
+[10:av0:10-x10o] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: drm (not implemented)
+[10:av0:10-x10o] [INF] [NET] [Jun 18 08:31:42] netcam_init_swdecoder: norm: Initializing decoder
+[10:av0:10-x10o] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_codec: norm: Decoder opened
+[4:ml4:04-x04] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[4:ml4:04-x04] [INF] [NET] Above message repeats 1 times
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_parms: Setting up highres stream.
+[4:ml4:04-x04] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >decoder< >NULL<
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:42] util_check_passthrough: pass-through enabled.
+[14:nc14:04-x04] [NTC] [NET] [Jun 18 08:31:42] netcam_rtsp_handler: norm: Camera handler thread [14] started
+[14:nc14:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[4:ml4:04-x04] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[4:ml4:04-x04] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >allowed_media_types< >video<
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: rtsp_transport = tcp
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: allowed_media_types = video
+[9:ml9:09-x09] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [0/0] to [0/507904] bytes.
+[9:ml9:09-x09] [INF] [NET] Above message repeats 1 times
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_read_image: norm: capture_rate not specified in netcam_params. Using 16
+[9:ml9:09-x09] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[2:av0:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: HW Devices: 
+[2:av0:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vdpau (not implemented)
+[2:av0:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: cuda (available)
+[2:av0:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vaapi (available)
+[2:av0:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: qsv (not implemented)
+[2:av0:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: drm (not implemented)
+[2:av0:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_init_swdecoder: norm: Initializing decoder
+[2:av0:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_codec: norm: Decoder opened
+[9:ml9:09-x09] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_parms: Setting up highres stream.
+[9:ml9:09-x09] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >decoder< >NULL<
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:42] util_check_passthrough: pass-through enabled.
+[15:nc15:09-x09] [NTC] [NET] [Jun 18 08:31:42] netcam_rtsp_handler: norm: Camera handler thread [15] started
+[15:nc15:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[9:ml9:09-x09] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[9:ml9:09-x09] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >allowed_media_types< >video<
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: rtsp_transport = tcp
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: allowed_media_types = video
+[7:av0:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: HW Devices: 
+[7:av0:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vdpau (not implemented)
+[7:av0:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: cuda (available)
+[7:av0:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vaapi (available)
+[7:av0:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: qsv (not implemented)
+[7:av0:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: drm (not implemented)
+[7:av0:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_init_swdecoder: norm: Initializing decoder
+[7:av0:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_codec: norm: Decoder opened
+[2:ml2:02-x02] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [0/0] to [0/507904] bytes.
+[2:ml2:02-x02] [INF] [NET] Above message repeats 1 times
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_read_image: norm: capture_rate not specified in netcam_params. Using 16
+[10:ml10:10-x10] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [0/0] to [0/507904] bytes.
+[10:ml10:10-x10] [INF] [NET] Above message repeats 1 times
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_read_image: norm: capture_rate not specified in netcam_params. Using 16
+[2:ml2:02-x02] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[10:ml10:10-x10] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[2:ml2:02-x02] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[10:ml10:10-x10] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_parms: Setting up highres stream.
+[2:ml2:02-x02] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >decoder< >NULL<
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:42] util_check_passthrough: pass-through enabled.
+[16:nc16:02-x02] [NTC] [NET] [Jun 18 08:31:42] netcam_rtsp_handler: norm: Camera handler thread [16] started
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_parms: Setting up highres stream.
+[16:nc16:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[10:ml10:10-x10] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >decoder< >NULL<
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:42] util_check_passthrough: pass-through enabled.
+[17:nc17:10-x10] [NTC] [NET] [Jun 18 08:31:42] netcam_rtsp_handler: norm: Camera handler thread [17] started
+[17:nc17:10-x10] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[2:ml2:02-x02] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[2:ml2:02-x02] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >allowed_media_types< >video<
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: rtsp_transport = tcp
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: allowed_media_types = video
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[10:ml10:10-x10] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[10:ml10:10-x10] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >allowed_media_types< >video<
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: rtsp_transport = tcp
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: allowed_media_types = video
+[7:ml7:07-x07] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [0/0] to [0/507904] bytes.
+[7:ml7:07-x07] [INF] [NET] Above message repeats 1 times
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_read_image: norm: capture_rate not specified in netcam_params. Using 16
+[7:ml7:07-x07] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[7:ml7:07-x07] [INF] [NET] Above message repeats 1 times
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_parms: Setting up highres stream.
+[7:ml7:07-x07] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >decoder< >NULL<
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:42] util_check_passthrough: pass-through enabled.
+[18:nc18:07-x07] [NTC] [NET] [Jun 18 08:31:42] netcam_rtsp_handler: norm: Camera handler thread [18] started
+[18:nc18:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[7:ml7:07-x07] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[7:ml7:07-x07] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >allowed_media_types< >video<
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: rtsp_transport = tcp
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: allowed_media_types = video
+[1:av0:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: HW Devices: 
+[1:av0:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vdpau (not implemented)
+[1:av0:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: cuda (available)
+[1:av0:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vaapi (available)
+[1:av0:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: qsv (not implemented)
+[1:av0:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: drm (not implemented)
+[1:av0:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_init_swdecoder: norm: Initializing decoder
+[1:av0:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_codec: norm: Decoder opened
+[1:ml1:01-x01] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [0/0] to [0/507904] bytes.
+[1:ml1:01-x01] [INF] [NET] Above message repeats 1 times
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_read_image: norm: capture_rate not specified in netcam_params. Using 16
+[1:ml1:01-x01] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[6:av0:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: HW Devices: 
+[6:av0:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vdpau (not implemented)
+[6:av0:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: cuda (available)
+[6:av0:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: vaapi (available)
+[6:av0:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: qsv (not implemented)
+[6:av0:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_hwdecoders: norm: drm (not implemented)
+[6:av0:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_init_swdecoder: norm: Initializing decoder
+[6:av0:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_codec: norm: Decoder opened
+[1:ml1:01-x01] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_parms: Setting up highres stream.
+[1:ml1:01-x01] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >decoder< >NULL<
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:42] util_check_passthrough: pass-through enabled.
+[19:nc19:01-x01] [NTC] [NET] [Jun 18 08:31:42] netcam_rtsp_handler: norm: Camera handler thread [19] started
+[19:nc19:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[1:ml1:01-x01] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[1:ml1:01-x01] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >allowed_media_types< >video<
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: rtsp_transport = tcp
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: allowed_media_types = video
+[6:ml6:06-x06] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [0/0] to [0/507904] bytes.
+[6:ml6:06-x06] [INF] [NET] Above message repeats 1 times
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_read_image: norm: capture_rate not specified in netcam_params. Using 16
+[6:ml6:06-x06] [DBG] [NET] [Jun 18 08:31:42] netcam_check_buffsize: expanding buffer from [506880/507904] to [506880/1015808] bytes.
+[6:ml6:06-x06] [INF] [NET] Above message repeats 1 times
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_parms: Setting up highres stream.
+[6:ml6:06-x06] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >decoder< >NULL<
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:42] util_check_passthrough: pass-through enabled.
+[20:nc20:06-x06] [NTC] [NET] [Jun 18 08:31:42] netcam_rtsp_handler: norm: Camera handler thread [20] started
+[20:nc20:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: norm: Setting rtsp/rtmp
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_path: Setting up rtsp via ffmpeg netcam
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[6:ml6:06-x06] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >rtsp_transport< >tcp<
+[6:ml6:06-x06] [INF] [ALL] [Jun 18 08:31:42] util_parms_add: Parsed: >allowed_media_types< >video<
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: rtsp_transport = tcp
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_set_options: highres: option: allowed_media_types = video
+[15:nc15:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: norm: Opened camera(09-x09t_flr)
+[18:nc18:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: norm: Opened camera(07-x07drway)
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: highres: Opened camera(05-x05ud_rm)
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: highres: Opened camera(03-x03itchn)
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: highres: Opened camera(04-x04_offc)
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: highres: Opened camera(02-x02_ro)
+[13:nc13:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: norm: Opened camera(08-x08or_dr)
+[12:nc12:03-x03] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: norm: Opened camera(03-x03itchn)
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: highres: Opened camera(10-x10ool_lv)
+[11:nc11:05-x05] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: norm: Opened camera(05-x05ud_rm)
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: highres: Opened camera(01-x01r_pat)
+[17:nc17:10-x10] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: norm: Opened camera(10-x10ool_lv)
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: highres: Opened camera(08-x08or_dr)
+[16:nc16:02-x02] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: norm: Opened camera(02-x02_ro)
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: highres: Opened camera(07-x07drway)
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: highres: Opened camera(09-x09t_flr)
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: highres: Opened camera(06-x06nside)
+[19:nc19:01-x01] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: norm: Opened camera(01-x01r_pat)
+[20:nc20:06-x06] [INF] [NET] [Jun 18 08:31:42] netcam_rtsp_open_context: norm: Opened camera(06-x06nside)
+[14:nc14:04-x04] [INF] [NET] [Jun 18 08:31:43] netcam_rtsp_open_context: norm: Opened camera(04-x04_offc)
+[15:av15:09-x09] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: norm: Initializing decoder
+[15:av15:09-x09] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: norm: Decoder opened
+[15:nc15:09-x09] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera (09-x09t_flr) connected
+[15:nc15:09-x09] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Netcam capture_rate is 16.
+[15:nc15:09-x09] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera source is 15 FPS
+[5:av0:05-x05] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: highres: Initializing decoder
+[5:av0:05-x05] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: highres: Decoder opened
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_copy_stream: Stream copied for pass-through
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_read_image: highres: capture_rate not specified in netcam_params. Using 16
+[5:ml5:05-x05] [NTC] [ALL] [Jun 18 08:31:44] image_ring_resize: Resizing pre_capture buffer to 1 items
+[21:nc21:05-x05] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_handler: highres: Camera handler thread [21] started
+[21:nc21:05-x05] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[3:av0:03-x03] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: highres: Initializing decoder
+[3:av0:03-x03] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: highres: Decoder opened
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_copy_stream: Stream copied for pass-through
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_read_image: highres: capture_rate not specified in netcam_params. Using 16
+[4:av0:04-x04] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: highres: Initializing decoder
+[3:ml3:03-x03] [NTC] [ALL] [Jun 18 08:31:44] image_ring_resize: Resizing pre_capture buffer to 1 items
+[4:av0:04-x04] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: highres: Decoder opened
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_copy_stream: Stream copied for pass-through
+[22:nc22:03-x03] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_handler: highres: Camera handler thread [22] started
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_read_image: highres: capture_rate not specified in netcam_params. Using 16
+[22:nc22:03-x03] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[4:ml4:04-x04] [NTC] [ALL] [Jun 18 08:31:44] image_ring_resize: Resizing pre_capture buffer to 1 items
+[23:nc23:04-x04] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_handler: highres: Camera handler thread [23] started
+[23:nc23:04-x04] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[18:av18:07-x07] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: norm: Initializing decoder
+[18:av18:07-x07] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: norm: Decoder opened
+[2:av0:02-x02] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: highres: Initializing decoder
+[2:av0:02-x02] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: highres: Decoder opened
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_copy_stream: Stream copied for pass-through
+[2:ml2:02-x02] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_read_image: highres: capture_rate not specified in netcam_params. Using 16
+[2:ml2:02-x02] [NTC] [ALL] [Jun 18 08:31:44] image_ring_resize: Resizing pre_capture buffer to 1 items
+[24:nc24:02-x02] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_handler: highres: Camera handler thread [24] started
+[24:nc24:02-x02] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[18:nc18:07-x07] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera (07-x07drway) connected
+[18:nc18:07-x07] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Netcam capture_rate is 16.
+[18:nc18:07-x07] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera source is 15 FPS
+[11:av11:05-x05] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: norm: Initializing decoder
+[11:av11:05-x05] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: norm: Decoder opened
+[12:av12:03-x03] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: norm: Initializing decoder
+[12:av12:03-x03] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: norm: Decoder opened
+[1:av0:01-x01] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: highres: Initializing decoder
+[1:av0:01-x01] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: highres: Decoder opened
+[13:av13:08-x08] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: norm: Initializing decoder
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_copy_stream: Stream copied for pass-through
+[1:ml1:01-x01] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_read_image: highres: capture_rate not specified in netcam_params. Using 16
+[13:av13:08-x08] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: norm: Decoder opened
+[1:ml1:01-x01] [NTC] [ALL] [Jun 18 08:31:44] image_ring_resize: Resizing pre_capture buffer to 1 items
+[25:nc25:01-x01] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_handler: highres: Camera handler thread [25] started
+[25:nc25:01-x01] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[11:nc11:05-x05] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera (05-x05ud_rm) connected
+[11:nc11:05-x05] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Netcam capture_rate is 16.
+[11:nc11:05-x05] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera source is 15 FPS
+[12:nc12:03-x03] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera (03-x03itchn) connected
+[12:nc12:03-x03] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Netcam capture_rate is 16.
+[12:nc12:03-x03] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera source is 15 FPS
+[13:nc13:08-x08] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera (08-x08or_dr) connected
+[13:nc13:08-x08] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Netcam capture_rate is 16.
+[13:nc13:08-x08] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera source is 15 FPS
+[10:av0:10-x10o] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: highres: Initializing decoder
+[10:av0:10-x10o] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: highres: Decoder opened
+[16:av16:02-x02] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: norm: Initializing decoder
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_copy_stream: Stream copied for pass-through
+[10:ml10:10-x10] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_read_image: highres: capture_rate not specified in netcam_params. Using 16
+[16:av16:02-x02] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: norm: Decoder opened
+[10:ml10:10-x10] [NTC] [ALL] [Jun 18 08:31:44] image_ring_resize: Resizing pre_capture buffer to 1 items
+[26:nc26:10-x10] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_handler: highres: Camera handler thread [26] started
+[26:nc26:10-x10] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[17:av17:10-x10] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: norm: Initializing decoder
+[17:av17:10-x10] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: norm: Decoder opened
+[7:av0:07-x07] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: highres: Initializing decoder
+[7:av0:07-x07] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: highres: Decoder opened
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_copy_stream: Stream copied for pass-through
+[7:ml7:07-x07] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_read_image: highres: capture_rate not specified in netcam_params. Using 16
+[7:ml7:07-x07] [NTC] [ALL] [Jun 18 08:31:44] image_ring_resize: Resizing pre_capture buffer to 1 items
+[27:nc27:07-x07] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_handler: highres: Camera handler thread [27] started
+[27:nc27:07-x07] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[16:nc16:02-x02] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera (02-x02_ro) connected
+[16:nc16:02-x02] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Netcam capture_rate is 16.
+[16:nc16:02-x02] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera source is 15 FPS
+[17:nc17:10-x10] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera (10-x10ool_lv) connected
+[17:nc17:10-x10] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Netcam capture_rate is 16.
+[17:nc17:10-x10] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera source is 15 FPS
+[19:av19:01-x01] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: norm: Initializing decoder
+[19:av19:01-x01] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: norm: Decoder opened
+[8:av0:08-x08] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: highres: Initializing decoder
+[8:av0:08-x08] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: highres: Decoder opened
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_copy_stream: Stream copied for pass-through
+[8:ml8:08-x08] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_read_image: highres: capture_rate not specified in netcam_params. Using 16
+[8:ml8:08-x08] [NTC] [ALL] [Jun 18 08:31:44] image_ring_resize: Resizing pre_capture buffer to 1 items
+[28:nc28:08-x08] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_handler: highres: Camera handler thread [28] started
+[28:nc28:08-x08] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[20:av20:06-x06] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: norm: Initializing decoder
+[20:av20:06-x06] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: norm: Decoder opened
+[6:av0:06-x06] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: highres: Initializing decoder
+[6:av0:06-x06] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: highres: Decoder opened
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_copy_stream: Stream copied for pass-through
+[6:ml6:06-x06] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_read_image: highres: capture_rate not specified in netcam_params. Using 16
+[6:ml6:06-x06] [NTC] [ALL] [Jun 18 08:31:44] image_ring_resize: Resizing pre_capture buffer to 1 items
+[19:nc19:01-x01] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera (01-x01r_pat) connected
+[19:nc19:01-x01] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Netcam capture_rate is 16.
+[19:nc19:01-x01] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera source is 15 FPS
+[9:av0:09-x09] [INF] [NET] [Jun 18 08:31:44] netcam_init_swdecoder: highres: Initializing decoder
+[29:nc29:06-x06] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_handler: highres: Camera handler thread [29] started
+[9:av0:09-x09] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_codec: highres: Decoder opened
+[29:nc29:06-x06] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_copy_stream: Stream copied for pass-through
+[9:ml9:09-x09] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_read_image: highres: capture_rate not specified in netcam_params. Using 16
+[9:ml9:09-x09] [NTC] [ALL] [Jun 18 08:31:44] image_ring_resize: Resizing pre_capture buffer to 1 items
+[30:nc30:09-x09] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_handler: highres: Camera handler thread [30] started
+[30:nc30:09-x09] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_set_options: highres: Setting rtsp/rtmp
+[20:nc20:06-x06] [NTC] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera (06-x06nside) connected
+[20:nc20:06-x06] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Netcam capture_rate is 16.
+[20:nc20:06-x06] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_connect: norm: Camera source is 15 FPS
+[21:nc21:05-x05] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_context: highres: Opened camera(05-x05ud_rm)
+[22:nc22:03-x03] [INF] [NET] [Jun 18 08:31:44] netcam_rtsp_open_context: highres: Opened camera(03-x03itchn)
+[14:av14:04-x04] [INF] [NET] [Jun 18 08:31:45] netcam_init_swdecoder: norm: Initializing decoder
+[14:av14:04-x04] [INF] [NET] [Jun 18 08:31:45] netcam_rtsp_open_codec: norm: Decoder opened
+[14:nc14:04-x04] [NTC] [NET] [Jun 18 08:31:45] netcam_rtsp_connect: norm: Camera (04-x04_offc) connected
+[14:nc14:04-x04] [INF] [NET] [Jun 18 08:31:45] netcam_rtsp_connect: norm: Netcam capture_rate is 16.
+[14:nc14:04-x04] [INF] [NET] [Jun 18 08:31:45] netcam_rtsp_connect: norm: Camera source is 15 FPS
+[23:nc23:04-x04] [INF] [NET] [Jun 18 08:31:45] netcam_rtsp_open_context: highres: Opened camera(04-x04_offc)
+[25:nc25:01-x01] [INF] [NET] [Jun 18 08:31:45] netcam_rtsp_open_context: highres: Opened camera(01-x01r_pat)
+[24:nc24:02-x02] [INF] [NET] [Jun 18 08:31:45] netcam_rtsp_open_context: highres: Opened camera(02-x02_ro)
+[30:nc30:09-x09] [INF] [NET] [Jun 18 08:31:45] netcam_rtsp_open_context: highres: Opened camera(09-x09t_flr)
+[26:nc26:10-x10] [INF] [NET] [Jun 18 08:31:45] netcam_rtsp_open_context: highres: Opened camera(10-x10ool_lv)
+[27:nc27:07-x07] [INF] [NET] [Jun 18 08:31:45] netcam_rtsp_open_context: highres: Opened camera(07-x07drway)
+[29:nc29:06-x06] [INF] [NET] [Jun 18 08:31:45] netcam_rtsp_open_context: highres: Opened camera(06-x06nside)
+[28:nc28:08-x08] [INF] [NET] [Jun 18 08:31:45] netcam_rtsp_open_context: highres: Opened camera(08-x08or_dr)
+[21:av21:05-x05] [INF] [NET] [Jun 18 08:31:46] netcam_init_swdecoder: highres: Initializing decoder
+[21:av21:05-x05] [INF] [NET] [Jun 18 08:31:46] netcam_rtsp_open_codec: highres: Decoder opened
+[21:nc21:05-x05] [INF] [NET] [Jun 18 08:31:46] netcam_rtsp_copy_stream: Stream copied for pass-through
+[21:nc21:05-x05] [NTC] [NET] [Jun 18 08:31:46] netcam_rtsp_connect: highres: Camera (05-x05ud_rm) connected
+[21:nc21:05-x05] [INF] [NET] [Jun 18 08:31:46] netcam_rtsp_connect: highres: Netcam capture_rate is 16.
+[21:nc21:05-x05] [INF] [NET] [Jun 18 08:31:46] netcam_rtsp_connect: highres: Camera source is 15 FPS
+[22:av22:03-x03] [INF] [NET] [Jun 18 08:31:46] netcam_init_swdecoder: highres: Initializing decoder
+[22:av22:03-x03] [INF] [NET] [Jun 18 08:31:46] netcam_rtsp_open_codec: highres: Decoder opened
+[22:nc22:03-x03] [INF] [NET] [Jun 18 08:31:46] netcam_rtsp_copy_stream: Stream copied for pass-through
+[22:nc22:03-x03] [NTC] [NET] [Jun 18 08:31:46] netcam_rtsp_connect: highres: Camera (03-x03itchn) connected
+[22:nc22:03-x03] [INF] [NET] [Jun 18 08:31:46] netcam_rtsp_connect: highres: Netcam capture_rate is 16.
+[22:nc22:03-x03] [INF] [NET] [Jun 18 08:31:46] netcam_rtsp_connect: highres: Camera source is 15 FPS
+[25:av25:01-x01] [INF] [NET] [Jun 18 08:31:47] netcam_init_swdecoder: highres: Initializing decoder
+[25:av25:01-x01] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_open_codec: highres: Decoder opened
+[25:nc25:01-x01] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_copy_stream: Stream copied for pass-through
+[25:nc25:01-x01] [NTC] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera (01-x01r_pat) connected
+[25:nc25:01-x01] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Netcam capture_rate is 16.
+[25:nc25:01-x01] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera source is 15 FPS
+[30:av30:09-x09] [INF] [NET] [Jun 18 08:31:47] netcam_init_swdecoder: highres: Initializing decoder
+[30:av30:09-x09] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_open_codec: highres: Decoder opened
+[30:nc30:09-x09] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_copy_stream: Stream copied for pass-through
+[30:nc30:09-x09] [NTC] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera (09-x09t_flr) connected
+[30:nc30:09-x09] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Netcam capture_rate is 16.
+[30:nc30:09-x09] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera source is 15 FPS
+[23:av23:04-x04] [INF] [NET] [Jun 18 08:31:47] netcam_init_swdecoder: highres: Initializing decoder
+[23:av23:04-x04] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_open_codec: highres: Decoder opened
+[23:nc23:04-x04] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_copy_stream: Stream copied for pass-through
+[23:nc23:04-x04] [NTC] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera (04-x04_offc) connected
+[23:nc23:04-x04] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Netcam capture_rate is 16.
+[23:nc23:04-x04] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera source is 15 FPS
+[24:av24:02-x02] [INF] [NET] [Jun 18 08:31:47] netcam_init_swdecoder: highres: Initializing decoder
+[24:av24:02-x02] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_open_codec: highres: Decoder opened
+[24:nc24:02-x02] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_copy_stream: Stream copied for pass-through
+[24:nc24:02-x02] [NTC] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera (02-x02_ro) connected
+[24:nc24:02-x02] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Netcam capture_rate is 16.
+[24:nc24:02-x02] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera source is 15 FPS
+[26:av26:10-x10] [INF] [NET] [Jun 18 08:31:47] netcam_init_swdecoder: highres: Initializing decoder
+[26:av26:10-x10] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_open_codec: highres: Decoder opened
+[26:nc26:10-x10] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_copy_stream: Stream copied for pass-through
+[26:nc26:10-x10] [NTC] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera (10-x10ool_lv) connected
+[26:nc26:10-x10] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Netcam capture_rate is 16.
+[26:nc26:10-x10] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera source is 15 FPS
+[29:av29:06-x06] [INF] [NET] [Jun 18 08:31:47] netcam_init_swdecoder: highres: Initializing decoder
+[29:av29:06-x06] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_open_codec: highres: Decoder opened
+[29:nc29:06-x06] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_copy_stream: Stream copied for pass-through
+[29:nc29:06-x06] [NTC] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera (06-x06nside) connected
+[29:nc29:06-x06] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Netcam capture_rate is 16.
+[29:nc29:06-x06] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera source is 15 FPS
+[28:av28:08-x08] [INF] [NET] [Jun 18 08:31:47] netcam_init_swdecoder: highres: Initializing decoder
+[28:av28:08-x08] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_open_codec: highres: Decoder opened
+[28:nc28:08-x08] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_copy_stream: Stream copied for pass-through
+[28:nc28:08-x08] [NTC] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera (08-x08or_dr) connected
+[28:nc28:08-x08] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Netcam capture_rate is 16.
+[28:nc28:08-x08] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera source is 15 FPS
+[27:av27:07-x07] [INF] [NET] [Jun 18 08:31:47] netcam_init_swdecoder: highres: Initializing decoder
+[27:av27:07-x07] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_open_codec: highres: Decoder opened
+[27:nc27:07-x07] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_copy_stream: Stream copied for pass-through
+[27:nc27:07-x07] [NTC] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera (07-x07drway) connected
+[27:nc27:07-x07] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Netcam capture_rate is 16.
+[27:nc27:07-x07] [INF] [NET] [Jun 18 08:31:47] netcam_rtsp_connect: highres: Camera source is 15 FPS
+[5:ml5:05-x05] [INF] [NET] [Jun 18 08:31:48] netcam_rtsp_pktarray_resize: highres: Resized packet array to 74
+[3:ml3:03-x03] [INF] [NET] [Jun 18 08:31:48] netcam_rtsp_pktarray_resize: highres: Resized packet array to 74
+[4:ml4:04-x04] [INF] [NET] [Jun 18 08:31:48] netcam_rtsp_pktarray_resize: highres: Resized packet array to 66
+[5:ml5:05-x05] [NTC] [ALL] [Jun 18 08:31:48] image_ring_resize: Resizing pre_capture buffer to 4 items
+[3:ml3:03-x03] [INF] [ALL] [Jun 18 08:31:48] motion_init: Maskfile "/etc/motion/Masks/mask-A-704x480.pgm" loaded.
+[4:ml4:04-x04] [INF] [ALL] [Jun 18 08:31:48] motion_init: Maskfile "/etc/motion/Masks/mask-B-704x480.pgm" loaded.
+[3:ml3:03-x03] [NTC] [ALL] [Jun 18 08:31:48] image_ring_resize: Resizing pre_capture buffer to 4 items
+[4:ml4:04-x04] [NTC] [ALL] [Jun 18 08:31:48] image_ring_resize: Resizing pre_capture buffer to 4 items
